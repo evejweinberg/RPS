@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissor</title>
+    <script src="//use.typekit.net/cty3kpm.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <link href="rps.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+<div id = "header-text">
+    <h1>
+      <div class = "extrusion">
+          <span class = "wiggle">PLAY </span> with the computer
+          <BR>
+          <br> 
+      </div>
+
+<div id="three-options">
+    <div class="game-icon" id="rock-type">
+      <span>Rock</span>
+      <img class="hidden" src='img/rock.png'/>
+    </div> 
+
+    <div class="game-icon" id="paper-type">
+      <span>Paper</span>
+      <img class="hidden" src='img/paper.png'/>
+    </div> 
+    
+    <div class="game-icon" id="scissors-type">
+      <span>Scissors</span>
+      <img class="hidden" src='img/scissors.png'/>
+    </div>
+</div>
+
+   
+    </h1>
+    </div>
+
+<div id = "results">
+  <div class = "one">
+    <div class = "table">
+        <table align="center">
+              <tr>
+                <th> <input id="user_input" onkeypress="keyPressed(this, event)"></th>
+                <th><div onclick="play()" "PlayAgain()"><a>SHOOT!</a></div></th>
+              </tr>
+        </table>
+   
+      </div>
+  </div>
+</div>
+     
+     <br>
+    <div id="outcome"></div>
+   
+
+    
+   
+   
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="sketch.js"></script>
+
+</body>
+
+</html>
