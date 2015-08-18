@@ -230,4 +230,22 @@ li {
   display: inline-block;
 }
 
+/**********************************
+ABOUT
+***********************************/
+
+.contact-info li.phone a{
+  background-image: url("img/phone.png");
+}
+
+.contact-info li.twitter a{
+  background-image: url("img/twitter.png");
+}
+
+.contact-info a{
+  background-repeat: no-repeat;
+  min-height: 20px;
+  display: block;
+}
+
 
