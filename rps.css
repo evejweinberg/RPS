@@ -202,6 +202,12 @@ footer {
   clear: both;
   padding-top: 50px;
   color: #ccc;
+  background-color: #64ABC1;
+  max-height:120px;
+}
+
+footer a{
+  color: white;
 }
 
 .social-icon {
