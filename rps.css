@@ -1,3 +1,16 @@
+ @import "compass/css3";
+
+/* .squiggles {
+  position: absolute;
+  stroke: rgba(white, .5);
+  stroke-width: 10;
+  height: 100%;
+  width: 50%;
+  left: 0;
+  top: 0;
+  background-color: aquamarine;
+}*/
+
 .extrusion{
   text-shadow:
     0 1px #b7b7b7,
@@ -208,6 +221,7 @@ footer {
   max-height:120px;
 }
 
+
 footer a{
   color: white;
 }
@@ -267,9 +281,9 @@ form {
  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
 
-
+box-shadow: 3px 3px 1px 1px black;
   border-radius: 8px;
-  border: 3px black solid;
+  border: 3px #DA5B40 solid;
 }
 
 input[type="text"],
@@ -292,9 +306,16 @@ select {
   outline: 0;
   padding: 15px;
   width: 90%;
+  background: url(img/paper.gif) no-repeat center center fixed;
+  background-size: 108%;
+ -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+    transform: rotate(-2deg);
+    border: 2px #DA5B40 solid;
+    box-shadow: 10px 10px 5px 6px black;
+
   /*background: radial-gradient(#333 40%,#000 100%);*/
 /*  background: url(img/paper.gif) no-repeat center center fixed;
-*/stroke: 3px black;
+*/
   background-color: #e8eeef;
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
@@ -420,6 +441,30 @@ select {
                0 0 75px #228DFF;
   }
 }
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.number {
+  background-color: #DA5B40;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
 }
 
 

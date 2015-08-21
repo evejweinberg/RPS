@@ -40,19 +40,25 @@
     
 
     <form action="index.html" method="post">
-    <!-- //the other option is get -->
+    <!-- //the other option is 'get' -->
     <h1 id="neon">sign up for the seminar</h1>
-      <label for="name">Giimi yur name:</label>
-      <input type="text" id="name" name="user_name">
-      <!-- name is for serer side, id is for Css -->
-      <label for="email">Emul:</label>
-      <input type="email" id="mail" name="user_email">
-      <label for="week">What week?</label>
-      <input type="week">
-      <label for="color">Favo Color</label>
-      <input type="color">
-      <label for="bio">FULL biography</label>
-      <textarea id="bio" name="user_bio"></textarea>
+        <fieldset>
+          <legend><span class="number">1</span>Give me your data</legend>
+          <label for="name">Giimi yur name:</label>
+          <input type="text" id="name" name="user_name">
+          <!-- name is for serer side, id is for Css -->
+          <label for="email">Emul:</label>
+          <input type="email" id="mail" name="user_email">
+          <label for="week">What week?</label>
+          <input type="week">
+          <label for="color">Favo Color</label>
+          <input type="color">
+        </fieldset>
+        <fieldset>
+        <legend><span class="number">1</span>Your bio</legend>
+          <label for="bio">FULL biography</label>
+          <textarea id="bio" name="user_bio"></textarea>
+      </fieldset>
       <button type="submit">Sign Up!</button>
 </form>
 
