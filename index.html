@@ -4,16 +4,21 @@
 <head>
     <title>Rock Paper Scissor</title>
     <script src="//use.typekit.net/cty3kpm.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script>
+    try {
+        Typekit.load({
+            async: true
+        });
+    } catch (e) {}
+    </script>
     <link href="rps.css" rel="stylesheet">
+        <link href="responsive.css" rel="stylesheet">
+
 </head>
 
 <body>
-
-
-
-<div id = "header-text">
-    <h1>
+    <div id="header-text">
+        <h1>
       <div class = "extrusion">
           <span class = "wiggle">PLAY </span> with the computer
           <BR>
@@ -40,42 +45,35 @@
    
     </h1>
     </div>
-
-<div id = "results">
-  <div class = "one">
-    <div class = "table">
-        <table align="center">
-              <tr>
-                <th> <input id="user_input" onkeypress="keyPressed(this, event)"></th>
-                <th><div onclick="play()" "PlayAgain()"><a>SHOOT!</a></div></th>
-              </tr>
-        </table>
-   
-      </div>
-  </div>
-</div>
-     
-     <br>
+    <div id="results">
+        <div class="one">
+            <div class="table">
+                <table align="center">
+                    <tr>
+                        <th>
+                            <input id="user_input" onkeypress="keyPressed(this, event)">
+                        </th>
+                        <th>
+                            <div onclick="play()" "PlayAgain()"><a>SHOOT!</a></div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
     <div id="outcome"></div>
-   
-
-    
-   <footer>
-   <nav>
-        <ul>
-          <li><a href="index.html" class="selected">Game</a></li>
-          <li><a href="about.html" >About</a></li>
-          
-        </ul>
-      </nav>
-        
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="selected">Game</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
         <p>&copy; 2014 Your Welcome.</p>
-      </footer> 
-   
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="sketch.js"></script>
-
 </body>
 
 </html>
