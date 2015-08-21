@@ -16,6 +16,10 @@ $(document).ready(function () {
     }
   });
 
+  $( "#submit" ).click(function() {
+  alert( "You Dummy. This SignUp is NOT Legit" );
+});
+
 });
 
 
