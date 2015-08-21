@@ -115,7 +115,7 @@ a {
 }
 
 html {
-    background: url(img/paper.gif) no-repeat center center fixed;
+    background: url(img/paper.gif) repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -212,6 +212,7 @@ FOOTER
 ***********************************/
 
 footer {
+  margin-top: 230px;
   font-size: 0.75em;
   text-align: center;
   clear: both;
@@ -219,6 +220,7 @@ footer {
   color: #ccc;
   background-color: #64ABC1;
   max-height:120px;
+  display: relative;
 }
 
 
@@ -304,7 +306,7 @@ box-shadow: 3px 3px 3px rgba(0,0,0,0.26);
 }
 
 #extra-info{
-  margin-top: -350px;
+  margin-top: -450px;
   max-width: 240px;
   margin-left: 20px;
   box-shadow: 3px 3px 3px rgba(0,0,0,0.26);
@@ -313,7 +315,7 @@ box-shadow: 3px 3px 3px rgba(0,0,0,0.26);
    -webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
     transform: rotate(-1deg);
       background: url(img/paper.gif) repeat center center;
-  background-size: 80%;
+  background-size: 130%;
 }
 
 input[type="text"],
