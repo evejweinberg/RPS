@@ -40,7 +40,7 @@
     </ul>
     
 
-    <form action="index.html" method="post">
+    <form action="index.html" method="post" id="form1">
     <!-- //the other option is 'get' -->
     <h1 id="neon">sign up for the seminar</h1>
         <fieldset>
@@ -48,21 +48,36 @@
           <label for="name">Giimi yur name:</label>
           <input type="text" id="name" name="user_name">
           <!-- name is for serer side, id is for Css -->
-          <label for="email">Emul:</label>
+          <label for="email">Internet pen-pal address:</label>
           <input type="email" id="mail" name="user_email">
-          <label for="week">What week?</label>
+          <label for="week">What week works for you?</label>
           <input type="week">
           <label for="color">Favo Color</label>
           <input type="color">
         </fieldset>
         <fieldset>
         <legend><span class="number">1</span>Your bio</legend>
-          <label for="bio">FULL biography - everything</label>
+          <label for="bio">FULL biography - give me everything</label>
           <textarea id="bio" name="user_bio"></textarea>
       </fieldset>
       <button type="submit">Sign Up!</button>
 </form>
 
+<div id="extra-info">
+  <form action="index.html" method="post">
+    <fieldset>
+          <legend><span class="number">3</span>One More thing</legend>
+          <label for="job">What's your dad like?</label>
+          <select id="job" name="user_job">
+          <option value="Rainbows and Sprinkles">Rainbows and Sprinkles</option>
+          <option value="Ripped">Ripped</option>
+          <option value="Super_ripped">sssuper ripped</option>
+          <option value="poppa_didnt">Poppa didn't raise no fool</option>
+          </select>
+          
+      </fieldset>
+  </form>
+</div>
 
 
     <footer>
