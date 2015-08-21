@@ -238,7 +238,7 @@ a {
 
 ul {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 0px;
   padding: 0;
 }
 
@@ -262,6 +262,23 @@ ABOUT
   background-repeat: no-repeat;
   min-height: 20px;
   display: block;
+}
+
+
+ .contact-info{ 
+  display: block;
+    margin-left: auto;
+    margin-right: auto; 
+   max-width: 600px;
+    background: url(img/paper.gif) no-repeat center center fixed; /*center center fixed*/
+  background-size: 80%;
+  background-color: blue;
+ -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.26);
+  border-radius: 3px;
+  border: 2px #DA5B40 solid;
   
 }
 
@@ -272,7 +289,7 @@ FORM
 
 form {
   max-width: 550px;
-  margin: 10px auto;
+  margin: -10px auto;
   padding: 10px 20px;
 /*  background: radial-gradient(teal 40%,#000 100%);
 */ /* background: teal;*/
@@ -282,8 +299,8 @@ form {
     transform: rotate(7deg);
 
 box-shadow: 3px 3px 3px rgba(0,0,0,0.26);
-  border-radius: 8px;
-  border: 3px #DA5B40 solid;
+  border-radius: 5px;
+  border: 2px #DA5B40 solid;
 }
 
 input[type="text"],
