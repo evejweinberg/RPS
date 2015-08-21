@@ -41,11 +41,17 @@ body {
 }
 
 .three-options{
+  display:absolute;
    width: 800px;
   height:200px;
     align-items: center;
   justify-content: center;
 
+}
+
+.option-image{
+  position:absolute;
+  margin-top: 40px;
 }
 .game-icon img{
  /*  position: absolute;
@@ -123,8 +129,8 @@ html {
 }
 
 #results {
-    display: relative;
-    margin-top: 100px;
+    display: absolute;
+    margin-top: 150px;
 }
 
 .wiggle {

@@ -29,6 +29,7 @@ $(".game-icon")
         	console.log('mouseover')
           $(this).find("span").addClass('hidden');
           $(this).find("img").removeClass('hidden');
+          $(this).find("span").addClass('option-image');
         })
         .mouseleave(function() {
         	$(this).find("span").removeClass('hidden');
