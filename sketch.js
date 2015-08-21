@@ -1,4 +1,24 @@
 
+$(document).ready(function () {
+  
+ var navPos = $('.onemore').offset();
+  $(window).on('scroll', function () {
+    if($(window).scrollTop() > parseInt(navPos.top) - 60){
+      $('.onemore').css({
+        'position' : 'fixed',
+        'right' : '26.3%'
+      });
+    } else {
+      $('.onemore').css({
+        'position' : 'absolute',
+        'right' : '2%'
+      });
+    }
+  });
+
+});
+
+
 
 $(".game-icon")
         .mouseenter(function() { 

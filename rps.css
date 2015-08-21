@@ -306,7 +306,9 @@ box-shadow: 3px 3px 3px rgba(0,0,0,0.26);
 }
 
 #extra-info{
-  margin-top: -450px;
+position: absolute;
+top: 60px;
+left: 20px;
   max-width: 240px;
   margin-left: 20px;
   box-shadow: 3px 3px 3px rgba(0,0,0,0.26);
@@ -315,7 +317,7 @@ box-shadow: 3px 3px 3px rgba(0,0,0,0.26);
    -webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
     transform: rotate(-1deg);
       background: url(img/paper.gif) repeat center center;
-  background-size: 130%;
+  background-size: 150%;
 }
 
 input[type="text"],
