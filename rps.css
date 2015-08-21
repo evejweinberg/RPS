@@ -281,7 +281,7 @@ form {
  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
 
-box-shadow: 3px 3px 1px 1px black;
+box-shadow: 3px 3px 3px rgba(0,0,0,0.26);
   border-radius: 8px;
   border: 3px #DA5B40 solid;
 }
@@ -306,16 +306,9 @@ select {
   outline: 0;
   padding: 15px;
   width: 90%;
-  background: url(img/paper.gif) no-repeat center center fixed;
-  background-size: 108%;
+
  -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
     transform: rotate(-2deg);
-    border: 2px #DA5B40 solid;
-    box-shadow: 10px 10px 5px 6px black;
-
-  /*background: radial-gradient(#333 40%,#000 100%);*/
-/*  background: url(img/paper.gif) no-repeat center center fixed;
-*/
   background-color: #e8eeef;
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
@@ -338,14 +331,17 @@ select {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
-  color:#fff;
+  color: #51a2c1;
+
+
 
     -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate; 
 }
 #neon:hover{
-  color:#FF1177;
+/* color:#0066FF;*/
+ color:#266e89;
   -webkit-animation: none;
   -moz-animation: none;
   animation: none; 
@@ -356,21 +352,21 @@ select {
     text-shadow: 0 0 10px #fff,
                0 0 20px  #fff,
                0 0 30px  #fff,
-               0 0 40px  #FF1177,
-               0 0 70px  #FF1177,
-               0 0 80px  #FF1177,
-               0 0 100px #FF1177,
-               0 0 150px #FF1177;
+               0 0 40px  #3DB8C7,
+               0 0 70px  #3DB8C7,
+               0 0 80px  #3DB8C7,
+               0 0 100px #3DB8C7,
+               0 0 150px #3DB8C7;
   }
   to {
     text-shadow: 0 0 5px #fff,
                0 0 10px #fff,
                0 0 15px #fff,
-               0 0 20px #FF1177,
-               0 0 35px #FF1177,
-               0 0 40px #FF1177,
-               0 0 50px #FF1177,
-               0 0 75px #FF1177;
+               0 0 20px #3DB8C7,
+               0 0 35px #3DB8C7,
+               0 0 40px #3DB8C7,
+               0 0 50px #3DB8C7,
+               0 0 75px #3DB8C7;
   }
 }
 
